@@ -24,8 +24,10 @@ cp ${HOME}/opennms-config-workspace/juniper/events/*.xml ${OPENNMS_HOME}/etc/eve
 [source, xml]
 ----
 <event-file>events/juniper.events.xml</event-file>
+<event-file>events/juniper.ive.events.xml</event-file>
 <event-file>events/juniper.mcast.events.xml</event-file>
 <event-file>events/juniper.netscreen.events.xml</event-file>
+<event-file>events/juniper.screen.events.xml</event-file>
 <event-file>events/junos.events.xml</event-file>
 <event-file>events/junos.v1.events.xml</event-file>
 ----
